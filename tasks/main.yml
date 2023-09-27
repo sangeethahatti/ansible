@@ -1,0 +1,6 @@
+---
+# tasks file for myapache
+- name: Simple task
+  debug: 
+   msg: My name is Sangeetha
+
