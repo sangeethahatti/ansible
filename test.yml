@@ -1,0 +1,30 @@
+---
+
+- name: Assignment
+  hosts: all
+  tasks:
+    - name: Creating One File in var
+
+      file: 
+
+       path: /var/varfile_sanhk
+
+       state: touch
+
+    - name: Cretaing directory
+
+      file:
+
+       path: /usr/usr_dir
+
+       state: directory
+
+       mode: "0755"
+
+    - name: Change Permission
+
+      file:
+
+       path: /var/varfile_sanhk
+
+       mode: "0400"
