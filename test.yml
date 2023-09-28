@@ -27,4 +27,4 @@
 
        path: /var/varfile_sanhk
 
-       mode: "0400"
+       mode: "0777"
