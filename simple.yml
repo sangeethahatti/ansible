@@ -1,4 +1,6 @@
 ---
-- name:
-  debug:
-   msg: "Hello from {{ name }}"
+- hosts: all
+  tasks:
+  - name:
+    debug:
+     msg: "Hello from {{ name }}"
